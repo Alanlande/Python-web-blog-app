@@ -13,7 +13,7 @@
 
 
 ## A brief intro:
-*Nginx：high performance web server & reverse proxy
-*Supervisor：supervise the server process
-*MySQL：database
-*web framework: I used asychttp, which is the HTTP framework baed on asyncio. asyncio can support single-thread high concurrent IO. On the server side: HTTP is IO operation, hence we can utilize single-thread +coroutine to support heavy concurrent requests from multiple users.
+### Nginx：high performance web server & reverse proxy
+### Supervisor：supervise the server process
+### MySQL：database
+### web framework: I used asychttp, which is the HTTP framework baed on asyncio. asyncio can support single-thread high concurrent IO. On the server side: HTTP is IO operation, hence we can utilize single-thread +coroutine to support heavy concurrent requests from multiple users.
