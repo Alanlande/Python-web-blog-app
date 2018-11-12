@@ -34,7 +34,7 @@ $(function () {
     <div class="uk-width-medium-3-4">
         <article class="uk-article">
             <h2>{{ blog.name }}</h2>
-            <p class="uk-article-meta">Published on {{ blog.created_at|datetime }}</p>
+            <p class="uk-article-meta">Published {{ blog.created_at|datetime }}</p>
             <p>{{ blog.html_content|safe }}</p>
         </article>
 
@@ -52,7 +52,7 @@ $(function () {
                 <form id="form-comment" class="uk-form">
                     <div class="uk-alert uk-alert-danger uk-hidden"></div>
                     <div class="uk-form-row">
-                        <textarea rows="6" placeholder="说点什么吧" style="width:100%;resize:none;"></textarea>
+                        <textarea rows="6" placeholder="Say something..." style="width:100%;resize:none;"></textarea>
                     </div>
                     <div class="uk-form-row">
                         <button type="submit" class="uk-button uk-button-primary"><i class="uk-icon-comment"></i> Comment</button>
