@@ -1,4 +1,4 @@
 awesome-python3-webapp
 ======================
 
-A python webapp tutorial.
+A tiny python webapp to manage personal blogs.
