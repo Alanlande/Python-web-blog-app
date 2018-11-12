@@ -1,7 +1,6 @@
-# Awesome python3 webapp
+# Awesome python3 webapp to manage personal blogs.
 ======================
 
-A tiny python webapp to manage personal blogs.
 
 ## Some overview screenshots
 ### The main page
