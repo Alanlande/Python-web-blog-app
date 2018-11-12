@@ -22,7 +22,7 @@
 
 ## How to deploy:
 ### Linux server side:
-- Install nesessary packages:
+- Install necessary packages:
   ```sh
   $ sudo apt-get install nginx supervisor python3 mysql-server
   $ sudo pip3 install jinja2 aiomysql aiohttp
